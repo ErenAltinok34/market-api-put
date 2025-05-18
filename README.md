@@ -1,16 +1,8 @@
+# pytest cache directory #
 
-## 🚀 What This Test Does
+This directory contains data from the pytest's cache plugin,
+which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
 
-The test checks whether a product can be successfully updated. It:
+**Do not** commit this to version control.
 
-- Sends a `PUT` request to update a product (e.g., product with ID 1),
-- Increases the product price by $15,
-- Asserts that the response is successful (status code 200),
-- Verifies the updated price in the response data.
-
-## 🧪 Running the Test
-
-Make sure you have `pytest` and `requests` installed:
-
-```bash
-pip install -r requirements.txt
+See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
